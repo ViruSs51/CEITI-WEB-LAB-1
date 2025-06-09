@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{% endblock title %}</title>
+    <head>
+    <body>
+        <div class="wrapper">
+            <header class="wrapper__header header">
+                {% block header %}{% endblock header %}
+            </header>
+            <div class="wrapper__container container">
+                {% block container %}{% endblock container %}
+            </div>
+            <footer class="wrapper__footer footer">
+                {% block footer %}{% endblock footer %}
+            </footer>
+        </div>
+    </body>
+</html>
